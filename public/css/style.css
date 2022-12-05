@@ -54,18 +54,40 @@ section2 {
   justify-content: center;
   padding-top: 50px;
 }
-section2 .icon {
-  background-color: white;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
 section2 .card {
   background-color: #e2e0e0;
   width: 300px;
   height: 280px;
   margin: 10px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section2 span {
+  color: #3677ba;
+}
+section2 .icon {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+section2 .icon i {
+  font-size: 25px;
+  color: #3677ba;
+}
+
+section3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */
