@@ -19,11 +19,15 @@ nav .titre {
 nav .nav {
   display: flex;
   padding-top: 25px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 nav .nav div:hover {
   background-color: #3677ba;
-  width: 45px;
-  height: 55px;
+  width: auto;
+  height: auto;
+  justify-content: center;
 }
 nav .nav a {
   text-decoration: none;
