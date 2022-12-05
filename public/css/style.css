@@ -124,10 +124,33 @@ footer {
   width: 100%;
   height: 300px;
   display: flex;
+  justify-content: center;
 }
 footer .foottxt {
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #b1c0d5;
+}
+footer .foottxt h2 {
+  letter-spacing: 5px;
+}
+footer .foottxt .logo i {
+  font-size: 50px;
+  margin: 5px;
+  color: #5f90c9;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #373a47;
+  color: #46596b;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
